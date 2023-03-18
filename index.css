@@ -54,10 +54,11 @@ html{
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
 }
 
-.month .prevMonth,
+.month .prevMonth{
+    cursor: pointer;
+}
+
 .month .nextMonth{
-    font-size: 1.5rem;
-    font-weight: bolder;
     cursor: pointer;
 }
 
@@ -106,6 +107,7 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
     font-weight: 400;
     font-size: 1.5rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
@@ -117,5 +119,6 @@ html{
 }
 
 .dates div:hover{
-    background-color: #191919;
+    transition: 500ms;
+    background-color: #828282;
 }
