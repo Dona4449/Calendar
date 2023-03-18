@@ -1,2 +1,2 @@
-# Calender
-This a simple calender.
+# Calendar
+This a simple calendar.
